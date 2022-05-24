@@ -1,0 +1,422 @@
+
+:root{
+    --color-background: #ffffff;
+    --color-links: #9191E9;
+    --color-letter-aboutcontact: white;
+}
+*{
+    
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;/* nos ayuda a color de manera horizontal*/
+    justify-content: space-between;/* nos ayuda a que los elementos sean espacios entre si*/
+    padding: 15px;
+}
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.header-img{
+    width: 30px;
+    height: 30px;
+ 
+}
+body{
+    background-color: var(--color-background);
+    font-family: 'Open Sans', sans-serif;/* estilo de letra sacado de google fonts*/
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #9191E9;
+}
+
+.header  a:hover{
+    text-decoration: underline;
+}
+.main-container{
+    display: flex;
+    width: 75%;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+main .main-container .main-img{
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+}
+.info-name{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.main-info{
+    width: 50%;
+}
+.info-description{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.main-links{
+    margin: 20px 0;
+}
+.main-link{
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 5px;
+}
+.main-link-salmon{
+    background-color: #9191E9;
+    color:white;
+}
+.main-link-transparent{
+    background-color: transparent;
+    color: #9191E9;
+   
+}
+.main-social-media{
+    display: flex;
+    align-items: center;
+}
+.main-social-media h2{
+    font-size: 16px;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+div .programs{
+    text-align: center;
+   margin-top: -620px;
+  
+}
+.programs{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    list-style: none;
+   
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+    background-color: #9191E9;
+    bottom: 0;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+   
+}
+.modal{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(77, 77, 77, 0.7);
+    transition: all 0.4s;
+    visibility: hidden;
+}
+.modal:target{
+    visibility: visible;
+    opacity: 1;
+}
+.modalcontent{
+    position: relative;
+    background-color: white;
+    width: 500px;
+    max-width: 90%;
+    padding: -1em 2em;
+    border-radius: 10px;
+}
+.modalclose{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    padding: 1em;
+    cursor: pointer;
+    color: #9191E9;
+}
+/*Samsung galaxy*/
+@media  screen and (max-width:361px) {
+    div .programs{
+        margin-top: -527px;
+    }
+   div #card{
+    border-style: solid;
+    border-color: #9191E9;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px  #333333;
+    background-clip: border-box;;
+    width: 150px;
+    margin: 0 12px;
+    display: table-footer-group;
+    }
+    
+}
+/* para pantallas de tablet */
+@media screen and (max-width: 950px){
+    .main-container{
+        width: 90%;
+    }
+    .main-img{
+        width: 100%;
+    }
+    .main-info{
+        width: 100%;
+    }
+    .main-links{
+        margin: 20px 0;
+    }
+    .main-link{
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin: 10px 5px;
+    }
+    .main-link-#9191E9{
+        background-color: #9191E9;
+        color:white;
+    }
+    .main-link-transparent{
+        background-color: transparent;
+        color: #9191E9;
+       
+    }
+    .main-social-media{
+        display: flex;
+        align-items: center;
+    }
+    .main-social-media h2{
+        font-size: 16px;
+        justify-content: space-between;
+        margin-right: 10px;
+    }
+   
+}
+/* tamaño de celular */
+@media screen and (max-width: 600px){
+    .main-container{
+        width: 90%;
+    }
+    .main-img{
+        width: 100%;
+    }
+    .main-info{
+        width: 100%;
+    }
+    .main-links{
+        margin: 20px 0;
+    }
+    .main-link{
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin: 10px 5px;
+    }
+    .main-link-#9191E9{
+        background-color: #9191E9;
+        color:white;
+    }
+    .main-link-transparent{
+        background-color: transparent;
+        color: #9191E9;
+       
+    }
+    .main-social-media{
+        display: flex;
+        align-items: center;
+        
+    }
+    .main-social-media h2{
+        font-size: 16px;
+        justify-content: space-between;
+        margin-right: -25px;
+        margin-top: 290px;
+    }
+    #github{
+        margin-top: 290px;
+    }
+    #linkedin{
+        margin-top: 290px;
+    }
+    #behance{
+        margin-top: 290px;
+    }
+   
+}
+@media screen and (max-width: 391px){
+    .main-container{
+        width: 90%;
+    }
+    .main-img{
+        width: 100%;
+    }
+    .main-info{
+        width: 100%;
+    }
+    .main-links{
+        margin: 20px 0;
+    }
+    .main-link{
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin: 10px 5px;
+    }
+    .main-link-#9191E9{
+        background-color: #9191E9;
+        color:white;
+    }
+    .main-link-transparent{
+        background-color: transparent;
+        color: #9191E9;
+       
+    }
+    .main-social-media{
+        display: flex;
+        align-items: center;
+        margin-top: -125px;
+    }
+    .main-social-media h2{
+        font-size: 16px;
+        justify-content: space-between;
+        margin-right: 10px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 1em 0;
+        background-color: #9191E9;
+        bottom: 0;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        
+    }
+ .wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+    bottom: 0;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+ }
+ #linkedin{
+     display: none;
+     
+ }
+ #behance{
+     display: none;
+ }
+ #github{
+     display: none;
+ }
+ #sigueme{
+     display: none;
+ }
+ #contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -32px;
+        margin-right: -60px;
+ }
+}
+/* Logos animados */
+.wrapper {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+  }
+  
+  i {
+    padding: 0px 10px;
+  }
+  
+  .wrapper i:nth-child(1) {
+    color: #4867AA;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    transition: all ease-in-out 150ms;
+  }
+  
+  .wrapper i:nth-child(1):hover {
+    margin-top: -10px;
+    text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -8);
+  }
+  
+  .wrapper  i:nth-child(2) {
+    color: #1DA1F2;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    transition: all ease-in-out 150ms;
+  }
+  
+  .wrapper  i:nth-child(2):hover {
+    margin-top: -10px;
+    text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -8);
+  }
+  
+  .wrapper i:nth-child(3) {
+    color: #444;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    transition: all ease-in-out 150ms;
+  }
+  
+  .wrapper i:nth-child(3):hover {
+    margin-top: -10px;
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+    transform: translate(0, -5);
+  }
+  .wrapper i:nth-child(4) {
+    color: #fffc00;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    transition: all ease-in-out 150ms;
+  }
+  .wrapper i:nth-child(4):hover {
+    margin-top: -10px;
+    text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -8);
+  }
+/*Diseño de card*/
+.cardh1{
+   color: #1DA1F2;
+    font-size: 12px;
+
+}
+.cardh2{
+    color: #1DA1F2;
+    font-size: 9px;
+}
+.cardimg{
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    font-size: 8px;
+}
+#card {
+    border-style: solid;
+    border-color: #9191E9;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px  #333333;
+    background-clip: border-box;;
+    width: 150px;
+    display: inline-block;
+    margin: 0 12px;
+  }
