@@ -200,6 +200,12 @@ div .programs{
     }
    
 }
+/* tamaño iphone x*/
+@media screen and (max-width: 414px){
+    div .programs{
+        margin-top: -727px;
+        }
+}
 /* tamaño samsung galaxy s8 +*/
 @media screen and (max-width: 375px){
     div .programs{
