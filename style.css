@@ -200,6 +200,12 @@ div .programs{
     }
    
 }
+/* tamaño samsung galaxy s8 +*/
+@media screen and (max-width: 375px){
+    div .programs{
+        margin-top: -433px;
+        }
+}
 /* tamaño de celular */
 @media screen and (max-width: 600px){
     .main-container{
