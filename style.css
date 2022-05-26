@@ -1,5 +1,5 @@
 :root{
-    --color-background: #000000;
+    --color-background: #ffffff;
     --color-letra: aliceblue;
     --color-bordes: #ffffff;
     --color-botones: #ccdf55;
@@ -18,6 +18,12 @@ body{
     min-height: 100%;
     background: var(--color-background);
 }
+p{
+    color: #000000;
+    text-align: center end;
+    font-size: 13px;
+    margin: 6px;
+}
 .grid-container > *{
     color: var(--color-letra);
     text-align: center;
@@ -25,7 +31,7 @@ body{
     align-self: flex-start;
     background-color: var(--color-background);
     border-radius: 20px;
-    /*border: 5px solid var(--color-bordes);*/
+    border: 10px white solid;
 }
 /* para pantallas de laptop y Pc´s */
 .grid-container{
@@ -46,14 +52,18 @@ body{
 .menu{
     grid-column: 2/4;
     grid-row: 2/3;
+    background-color: #D5DEFF;
+    color: #4067F9;
 }
 .section{
     grid-column: 1/2;
     grid-row: 2/4;
+    background-color: #AAAAEE;
 }
 .main{
     grid-column: 2/3;
     grid-row: 3/4;
+    background-color: #91FACD;
 }
 .article{
     grid-column: 3/4;
@@ -157,7 +167,7 @@ body{
     margin-top: 73px;
 }
 /*tamaño del video*/
-.portada video{
+.portada img{
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -171,7 +181,7 @@ body{
 .opciones *{
     list-style: none;
     text-decoration: none;
-    color: var(--color-letra);
+    color: #4067F9;
 }
 .opciones{
     display: grid;
@@ -181,7 +191,7 @@ body{
 }
 
 .opciones li{
-    border: 2px solid var(--color-background);
+    
     border-radius: 5px;
     align-self: center;
     display: grid;
@@ -205,7 +215,9 @@ body{
     height: 100%;
 }
 .main h2{
+
     text-align: center;
+    color: #000000;
 }
 /*configuracion de la seccion*/
 .section{
