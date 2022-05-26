@@ -224,6 +224,7 @@ p{
     height: 100%;
     display: grid;
     align-items: center;
+    justify-items: center;
 }
 .section a{
     color: var(--color-letra);
@@ -240,14 +241,15 @@ p{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    background-color: #FEE4CB;
 }
 .article div{
     display: grid;
-    margin: 7px;
+    margin: 12px;
     align-items: center;
     border-radius: 3px;
-    border: 3px solid var(--color-background);
-    background-color: var(--color-botones);
+    border: 3px transparent var(--color-background);
+    background-color: #EAB76A;
 }
 .article div:hover{
     border: 3px solid var(--color-letra);
