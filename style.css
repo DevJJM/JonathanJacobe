@@ -254,3 +254,38 @@ p{
 .article div:hover{
     border: 3px solid var(--color-letra);
 }
+
+/* targeta de cv*/
+.modal{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(77, 77, 77, 0.7);
+    transition: all 0.4s;
+    visibility: hidden;
+}
+.modal:target{
+    visibility: visible;
+    opacity: 1;
+}
+.modalcontent{
+    position: relative;
+    background-color: white;
+    width: 500px;
+    max-width: 90%;
+    padding: -1em 2em;
+    border-radius: 10px;
+}
+.modalclose{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    padding: 1em;
+    cursor: pointer;
+    color: #9191E9;
+}
