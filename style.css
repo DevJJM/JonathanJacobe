@@ -222,6 +222,22 @@ p{
     text-align: center;
     color: #000000;
 }
+/*configurando enlaces github, linkedin, twitter*/
+#linkedin h2{
+    color: white;
+    text-decoration: none;
+
+}
+#behance h2{
+    color: white;
+    text-decoration: none;
+
+}
+#github h2{
+    color: white;
+    text-decoration: none;
+
+}
 /*configuracion de la seccion*/
 .section{
     height: 100%;
