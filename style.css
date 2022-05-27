@@ -150,6 +150,9 @@ p{
         background-color: #D5DEFF;
         color: #4067F9;
     }
+    .modalcontent{
+        right: 18px;;
+    }
 }
 /*configuracion del contenido de la pagina*/
 .logo{
