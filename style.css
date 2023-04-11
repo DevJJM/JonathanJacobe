@@ -5,7 +5,7 @@
   }
   
   .container {
-    background-image: url(/img/back2.png);
+    background-image: url(img/back2.png);
     overflow: hidden;
   }
   
@@ -36,7 +36,7 @@
   
   .nameContainer {
     height: 100vh;
-    background-image: url(/img/back1.png);
+    background-image: url(img/back1.png);
   }
   /*estilos para los redes sociales*/
   .redes {
@@ -78,10 +78,10 @@
   }
   
   .dark {
-    background: url("./img/bg1.png");
+    background: url("img/bg1.png");
   }
   .purple {
-    background: rebeccapurple url("./img/bg2.png");
+    background: rebeccapurple url("img/bg2.png");
   }
   
   .jobTitle {
