@@ -1,73 +1,135 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;1,300&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/3a272aada3.js" crossorigin="anonymous"></script>  
-<title>JonathanJacobe</title>
-</head>
-<body>
-  <div class="grid-container">
-      <div class="logo">
-           <!--Gif de mounstros nft -->
-          <img src="logo.png" alt="logo"
-          />
-      </div>
-      <div class="portada">
-          <!--Video de portada-->
-          <img src="videos/videonft.gif" ></img>
-      </div>
-      <nav class="menu">
-          <ul class="opciones">
-              <li><a href="#">Conoceme</a></li>
-              <li><a href="https://ieeexplore.ieee.org/document/9678465" target="_blank">Scopus</a></li>
-              <li><a href="https://api.whatsapp.com/send?phone=920388169&text=Hola" target="_blank">Contactame</a></li>
-              <li><a href="https://platzi.com/p/jonathanjacobe/" target="_blank">Certificados</a></li>
-              <li><a href="https://www.figma.com/file/TA3ztZGFvj9CqBuxpf74H2/Platzi-Card-Community-(Premium)?node-id=104%3A84" target="_blank">Mas..</a></li>
-          </ul>
-      </nav>
-      <main class="main">
-          <h2>More about me..</h2> <!--Titulo-->
-          <br/>
-          <P>
-              <!--Descripcion-->
-              Soy Bachiller en Ingenieria de sistemas e informatica, llevo realizando trabajos como Frontend developer ( html, css y javascript ), cuento con  experiencia en UI/UX y maquetado de prototipos (Figma, Sketch y Adobe XD), además domino sistemas de gestión de base de datos como Microsoft SQL Server, MySQL y Oracle Cloud. Finalmente, también soy un apasionado en redes y telecomunicaciones obteniendo el certificado ccna.
-          </P>
-      </main>
-      <section class="section">
-          <h2>Clic!! en Mi CV</h2>
-          <br>
-          <a href=""></a>
-          <a href=""></a>
-          <a href="#modalbox"><img src="cv.png" /></a>
-          <a href=""></a>
-          <a href=""></a>
-          <br>
-      </section>
-       <!-- descripcion del pop up-->
-       <div id="modalbox" class="modal">
-        <div class="modalcontent">
-          <img src="cvjacob.jpg" width="400px" height="598px" type="img">
-          <a href="#" class="modalclose">X</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JonathanJacobe</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- INTRODUCTION -->
+      <div class="intro">
+        <div class="salute">
+          <div class="saluteTextContainer">
+            <h1 class="saluteText">Hi</h1>
+          </div>
+          <div class="saluteImgContainer">
+            <img src="./img/person.png" alt="" class="saluteImg" />
+          </div>
+        </div>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/jonathanjacobemontes/" target="_blank">
+              <img src="/img/linkedin.png" alt="linkedin" />
+            </a>
+            <a href="https://www.behance.net/" target="_blank">
+              <img src="/img/behance.png" alt="behance" />
+            </a>
+            <a href="https://github.com/JacobeJonathan" target="_blank">
+              <img src="/img/githubtop.png" alt="github" />
+            </a>
+            <a href="https://wa.me/920388169" target="_blank">
+                <img src="/img/WhatsApp.png" alt="whatsapp" />
+              </a>
+          </div>
+          
+        <div class="nameContainer">
+          <h2 class="name">I'm Jona</h2>
+        </div>
+        <div class="jobTitleContainer dark">
+          <h2 class="jobTitle">a system engineer</h2>
+        </div>
+        <div class="jobTitleContainer purple">
+          <h2 class="jobTitle">and Designer</h2>
         </div>
       </div>
-      <article class="article">
-          <div>
-              <a id="linkedin" href="https://www.linkedin.com/in/jonathanjacobemontes/" target="_blank"><h2 >Linkedin</h2></a>
+      <!-- PROJECTS -->
+      <div class="projects">
+        <h1 class="projectsTitle">Here are some of my projects</h1>
+        <div class="project">
+          <div class="phone">
+            <img src="./img/phone.png" alt="" />
+            <div class="phoneScreen">
+              <img src="./img/phoneApp.png" alt="" class="phoneApp" />
+            </div>
           </div>
-          <div>
-             <a id="behance" href="https://www.behance.net/jonathanjacobemontes" target="_blank"> <h2>Behance</h2></a>
+          <div class="projectDetail">
+            <h1 class="projectTitle">Rumi</h1>
+            <p class="projectDesc">
+              Aplicacion movil con realidad mixta con objetos 3D para el museo de Huancayo,     esta aplicacion
+              fue creada con el fin de que los museos puedan generar ingresos 
+               monetarios a traves de la app, ademas de que los usuarios puedan 
+               tener una aventura unica y asi conocer mas sobre la historia y las obras de arte.
+            </p>
+            <button class="projectButton">Learn More</button>
           </div>
-          <div>
-            <a id="github" href="https://github.com/JacobeJonathan" target="_blank"><h2>Github</h2></a>
+        </div>
+        <div class="project">
+          <div class="laptop">
+            <img src="./img/laptop.png" alt="" />
+            <div class="laptopScreen">
+              <img src="./img/lap.png" alt="" class="laptopApp" />
+            </div>
           </div>
-      </article>
-      <footer class="footer">&copy; Copyright 2023</footer>
-  </div>
-</body>
+          <div class="projectDetail">
+            <h1 class="projectTitle">LuStudio</h1>
+            <p class="projectDesc">
+                Somos una empresa dedicada a la Fabricación, producción y venta de toda clase de muebles en guadua y madera además realizamos todo tipo.
+            </p>
+            <button class="projectButton">Learn More</button>
+          </div>
+        </div>
+        <div class="project">
+          <div class="phone">
+            <img src="./img/phone.png" alt="" />
+            <div class="phoneScreen">
+              <img src="./img/laptopApp.png" alt="" class="phoneApp" />
+            </div>
+          </div>
+          <div class="projectDetail">
+            <h1 class="projectTitle">DigiLink</h1>
+            <p class="projectDesc">
+                Somos un grupo de Ingenieros de Sistemas, Desarrolladores y Diseñadores Gráficos
+                Somos una empresa peruana que nació como un emprendimiento para ayudar empresas en la transformación de procesos físicos a procesos totalmente digitales de manera simple y segura.
+            </p>
+            <button  class="projectButton" >Visita la web</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- GITHUB -->
+      <div class="githubContainer">
+        <h1 class="githubTitle">Want to see all projects?</h1>
+        <div class="githubChart">
+          <div class="dates">
+            <span>Jan</span>
+            <span>Feb</span>
+            <span>Mar</span>
+            <span>Apr</span>
+            <span>May</span>
+            <span>Jun</span>
+            <span>Jul</span>
+            <span>Agu</span>
+            <span>Sep</span>
+            <span>Oct</span>
+            <span>Nov</span>
+            <span>Dec</span>
+          </div>
+          <div class="boxContainer"></div>
+          <h1 class="githubTitle">ON GITHUB</h1>
+        </div>
+        <div class="githubSm">
+          <a href="">
+            <img src="./img/github.png" alt="" />
+          </a>
+          <h2>Find Me on Github</h2>
+        </div>
+      </div>
+    </div>
+    <script src="/app.js"></script>
+  </body>
 </html>
